@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+	<title>Portfolio of Conan Heiselt - Simplifying Pricing Widgets</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:300,500' rel='stylesheet' type='text/css'>
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel=stylesheet href="css/styles.css">
+    <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+  <!-- Google Tag Manager -->
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-T27KD2"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-T27KD2');</script>
+  <!-- End Google Tag Manager -->
+
+	<nav class="navbar">
+		<div class="container">
+		    <ul class="navbar-list">
+		        <li class="home-item">
+		        	<a href="download-pages.html" title="Download pages" class="nav-arrow navbar-link"><span class="navbar-item">&lt;</span></a>
+		        	<a href="./" title="Home" class="navbar-link"><span class="navbar-item home-item">Hi, I'm Conan</span></a>
+		        	<a href="accounts.html" title="Customer accounts" class="nav-arrow navbar-link"><span class="navbar-item">&gt;</span></a>
+		        </li>
+		     	<li><a href="download-pages.html" class="navbar-link" title="Downloads"><span class="navbar-item">Downloads</span></a></li>
+		     	<li><span class="navbar-item current">Widgets</span></li>
+		     	<li><a href="accounts.html" class="navbar-link" title="Accounts"><span class="navbar-item">Accounts</span></a></li>
+		    </ul>
+		</div>
+	</nav>
+
+	<div class="section header" id="widgets-header">
+		<div class="container">
+			<div class="row">
+				<h1>Simplifying Pricing Widgets</h1>
+			</div>
+		</div>
+	</div>
+
+	<div class="section content">
+		<div class="container">
+			<div class="row summary">
+				<p>Often, the best way to move forward is to take a step back. Asking the right questions can give a much needed perspective to see where energy is best spent, and where it would be wasted.</p>			
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<h2>Stepping Back from Initial Problems and Solutions</h2>
+
+				<p>Our marketing site and eCommerce platform have always been very separate experiences. However, during the previous year, we'd made some good improvements in smoothing out the flow between the two. As part of that effort, the eCommerce manager wanted to start showing pricing on each products' marketing page, which we'd never been able to automate before.</p>
+
+				<p>So, she met with me, the marketing content manager, and some of the web developers that worked on our store platform to discuss using some of the "pricing widgets" from our eCommerce platform provider. As we looked at the effort and how they might integrate, I started asking questions for clarity. What's the problem we're hoping to solve?</p>
+
+				<p>No one could answer that with certainty, so we took a step back and made a plan for each of us to gather the information we had access to. I was going to look for behavior patterns in the web analytics, she was going to talk to Sales to see what they were hearing, and the marketing manager was going to talk with customer service about the same thing. We had very specific questions we wanted to answer.</p>
+
+				<p>I did initial analysis in Google analytics, then set up funnels to track how visitors were interaction with our marketing site, then with our store--and possibly back again.</p>
+
+				<div class="portfolio-image">
+					<img src="./images/widgets1.png" alt="mapping of vistor flows between marketing site and store">
+					<div class="caption">One of the visitor flow maps I created to identify where problems might exist between marketing pages and our store.</div>
+				</div>				
+
+
+				<h2>Asking the Right Questions</h2>
+
+				<p>When we had each gathered our information, we met again to discuss the data. After reviewing our findings	, I suggested we make a list of all of the problems we saw related to how visitors were interacting both with our marketing and eCommerce site, then to pick the top concern and focus first on that.</p>
+
+				<p>Our top concern, based on information from Sales as well as supporting web analytics, was that potential customers who were just doing research (i.e. not buying right then) had difficulty finding the price of our products with out beginning the purchase process. So, we were back to the original problem, albeit with a lot more confidence and insight, but I suggested we question whether the solution of vendor-provided "widgets" was the best or even worth the effort. We looked at:</p>
+
+				<ul>
+				    <li>What would success look like?</li>
+				    <li>What are assumptions are we making about "success" and what's ideal?</li>
+				    <li>How do we verify/disprove our assumptions?</li>
+				    <li>Is the pricing widget a good solution?</li>
+				</ul>
+
+				<p>In the end, we decided that the automated pricing widget that we'd originally considered required too much time and effort given our level of uncertainty. After brainstorming several options, we decided to just try out a simple, manually updated equivalent to test our assumptions. It would be a prototype we could get out quickly but that we could leave in place if it proved effective enough.</p>
+
+				<p>Then before beginning design work, we swung back around to make sure we all agreed on the same, well defined goals.</p>
+
+
+				<h2>Building It</h2>
+
+				<p>I started by setting up analytics tracking on the current website workflows so we'd have control data to compare the changes to. A/B testing would have been ideal, but since we didn't have that capability, I did my best to align two segments of time that were as comparable as possible.</p>
+
+				<p>The rest of the process was fairly straight forward: Sketch, get feedback, make mockups, get feedback, update.</p> 
+
+				<div class="portfolio-image">
+					<img src="./images/widgets3.jpg" alt="notes from our meetings and early sketches">
+					<div class="caption">Some notes from one of our meetings and early sketches of how we might display pricing in context of the product marketing pages.</div>
+				</div>
+
+				<p>Meanwhile, I had discussions with the web developers about what was possible in the CMS without any changes--this was supposed to be a quick and easy test. After we were confident that the designs would be most likely to answer our questions. I spent a couple of days getting them in the CMS and setting up data tracking.</p>
+
+
+				<h2>Analyzing the Results</h2>
+
+				<p>After a few weeks of gathering data, we compared the results. There was very little change, albeit in the right direction. Fewer visitors were going to the store and then back to the marketing pages; however, the numbers weren't what we'd hoped.</p>
+
+				<div class="portfolio-image">
+					<img src="./images/widgets5.png" alt="comparison of pre- and post-change funnels in Google Analytics">
+					<div class="caption">Comparison of one type of funnel I looked at, pre- and post-update to determine overall influence on conversion rate.</div>
+				</div>
+
+				<p>While disappointing, the results made us glad we didn't divert development time away from other efforts for a month. 
+
+			</div>
+
+            <div class="row contact-footer">
+                <div class="twelve columns">
+                  <h5>Think I might be a good fit for your organization?</h5>
+                  <p>Contact me via <a href="mailto:conan.heiselt@gmail.com?subject=contact from website" "email me">email</a> or <a href="https://www.linkedin.com/in/cheiselt">Linkedin</a>.</p>
+                </div>
+            </div>
+		</div>
+			
+		
+	</div>
+
+    <div class="section footer" id="widgets-header">
+      <div class="container">
+        <div class="row">
+          &copy; 2017 Conan Heiselt
+        </div>
+      </div>
+    </div>
+
+</body>
+</html>

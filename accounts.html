@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Basic Page Needs
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta charset="utf-8">
+	<title>Portfolio of Conan Heiselt - Creating Customer Accounts for Sales</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <!-- Mobile Specific Metas
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- FONT
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link href="//fonts.googleapis.com/css?family=Raleway:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Ubuntu:300,500' rel='stylesheet' type='text/css'>
+    <!-- CSS
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel=stylesheet href="css/styles.css">
+    <!-- Favicon
+  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="icon" type="image/png" href="images/favicon.png">
+</head>
+<body>
+  <!-- Google Tag Manager -->
+  <noscript><iframe src="//www.googletagmanager.com/ns.html?id=GTM-T27KD2"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  '//www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-T27KD2');</script>
+  <!-- End Google Tag Manager -->
+
+	<nav class="navbar">
+		<div class="container">
+		    <ul class="navbar-list">
+		        <li class="home-item">
+		        	<a href="widgets.html" title="Pricing widgets" class="nav-arrow navbar-link"><span class="navbar-item">&lt;</span></a>
+		        	<a href="./" title="Home" class="navbar-link"><span class="navbar-item home-item">Hi, I'm Conan</span></a>
+		        	<span class="navbar-item nav-arrow">&nbsp;</span>
+		        </li>
+		     	<li><a href="download-pages.html" class="navbar-link" title="Downloads"><span  class="navbar-item">Downloads</span></a></li>
+		     	<li><a href="widgets.html" class="navbar-link"><span class="navbar-item">Widgets</span></a></li>
+		     	<li><span class="navbar-item current">Accounts</span></li>
+		    </ul>
+		</div>
+	</nav>
+
+	<div class="section header" id="accounts-header">
+		<div class="container">
+			<div class="row">
+				<h1>Creating Customer Accounts for Sales</h1>
+			</div>
+		</div>
+	</div>
+
+	<div class="section content">
+		<div class="container">
+			<div class="row summary">
+				<p>Enabling Sales to assist larger customers and find more opportunities turned out to be a year+ long process. This was the first time an internal systems project had a UX designer as part of the team, so there was a lot of learning on both sides of how to work best together. In the end, I was able to build a bridge that will continue to strengthen the solutions we create for our company.</p>			
+			</div>
+		</div>
+
+		<div class="container">
+			<div class="row">
+				<h2>Giving the Problem Some Focus</h2>
+
+				<p>By the time I joined the team, it had already started and much of the problem discovery had been done. The developers already had a pretty good idea of what direction they'd take.</p>
+
+				<p>Since the problem space was new to me, I did observations of some of the internal sales, customer service, education sales, and enterprise sales people doing related tasks. As a team we also watched videos that one of our stakeholders had made of herself going through the main process we were trying to improve. Through the discussions we had because of these observations, we refined the problems we decided to solve to better fit the existing workflows of our (internal) end users as well as the customers they worked with.</p>
+
+				<div class="portfolio-image">
+					<img src="./images/accounts1.jpg" alt="analysis of sales' workflows and where they could interact with accounts">
+					<div class="caption">Some of my analysis from observations of the different types of sales positions. Each group would interact with accounts in different ways and at different points in our existing system.</div>
+				</div>				
+
+				<p>Some interesting traits of our users were that they are highly advanced and will use the system many, many times a week, if not many times a day. As a general rule, we favored efficiency over learnability, and speed over simplicity. Of course, where possible, we tried for ease of use, learnability, and simplicity.</p>
+
+				<h2>Getting Started on the Core</h2>
+
+				<p>After breaking up the work into three phases, we began work designing the core functionality. I sketched out potential workflows for us to discuss. These helped us determine what to release for feedback first. Since we had three end users/stakeholders that met with us every week, we were confident we were moving in the right direction.</p>
+
+				<p>My focus early on was to design the tool to integrate well into the entire system and existing users' workflows, as well as what could measurably increase sales. My previous observations had uncovered several types of information that, provided at the right time, would provide many more upgrade and sales opportunities--but currently finding this information was a lot of work and sometimes only happened by chance.</p>
+
+				<p>As the developers progressed on the backend APIs, I migrated the sketches to wireframes, then after more feedback and paper prototyping, to mockups.</p>
+
+				<div class="portfolio-image">
+					<img src="./images/accounts3.png" alt="core account workflow mockups and interaction flow">
+					<div class="caption">Mockups and workflows for our first phase: create &amp; search for accounts, add &amp; edit orders in an account.</div>
+				</div>				
+
+
+				<h2>Addressing Complications</h2>		
+
+				<p>The development progressed quickly and before long we internally "shipped" the first phase for stakeholders to try out. During the process, though, I was unintentionally left out of discussions, not consulted on changes to some of the designs and, partly because of the other projects I was on at the same time, treated as more of a consultant instead of a team member. This was due to the culture--internal projects weren't used to working with a UX designer--not the animosity of the developers.</p>
+
+				<p>Also around the end of the first phase, the team discovered some complications in the business logic and the existing legacy systems. While not planned for, the work to account for these previous unknowns would nearly double the efforts already complete. It would also require some potentially complicated workflows.</p>
+
+				<p>I saw this as a great opportunity to bring the team into <em>my</em> process, instead of trying to worm my way into theirs. So, I invited anyone who wanted to a design session to work out the interactions and how the UI would look. Nearly all of the developers came. What we collectively came up with was fairly simple, and our discussions in the session helped solidify the backend logic as well.</p>
+
+				<div class="portfolio-image">
+					<img src="./images/accounts5.jpg" alt="developers and QA participating in small groups during a design studio">
+					<div class="caption">Two small groups of developers and QA at one of our design studios going over their ideas.</div>
+				</div>				
+
+				<p>Following our collaborative design, the developers began pulling me into more discussions both about the UI and the system in general.</p>
+
+				<p>Work progressed, and I continued to test my designs, using both paper and click-through prototypes, with our users, then discuss with the developers and adjusted before handing them off to be built.</p>
+
+
+				<h2>Sensing and Mitigating Trouble</h2>
+
+				<p>As seems to happen on many large projects, the team's focus seemed to shift over time from the big user problems we originally had identified, to an over-emphasis on the technical complications of the system.</p>
+
+				<p>I discussed my concerns and asked to run a "pre-mortem" with the whole team. This was a great opportunity for everyone to comfortably voice their concerns with this project and identify what might make it fail--even well before it ended. Surprisingly, when given the chance to think about it, many members of the team identified very similar potential causes of our theoretical demise--the largest of which was that the system would turn out to be unused.</p>
+
+				<div class="portfolio-image">
+					<img src="./images/accounts7.jpg" alt="whiteboard of premortem concerns and brainstorm of possible mitigations">
+					<div class="caption">The results of our pre-mortem: 58 ways we might fail and solid ideas to mitigate the worst of them.</div>
+				</div>				
+
+				<p>After the session, we met to create tasks and build in checkups into our project schedule to make sure the issues we identified didn't happen.</p>
+
+
+				<h2>Constant Design</h2>
+
+				<p>The project, as a "project," has wrapped up with the final parts we've identified as "most useful" still being developed prioritized and developed in the context of the whole team's responsibilities. My role continues to be to observe our end users and identify where to integrate the new system, design, test, and add my voice to keep us focused on the right problems.</p>
+
+				<p>We continue to meet and do design studios--requested by the developers--as complex problems arise.</p>
+
+				<p></p>
+
+				<div class="quote prettyprint"><div class="em">"I was living in a shack, and now I'm living in a four bedroom home!"</div><div class="right-align">-- an Inside Sales Agent who uses the new system</div> </div>
+				
+
+			</div>
+
+            <div class="row contact-footer">
+                <div class="twelve columns">
+                  <h5>Think I might be a good fit for your organization?</h5>
+                  <p>Contact me via <a href="mailto:conan.heiselt@gmail.com?subject=contact from website" "email me">email</a> or <a href="https://www.linkedin.com/in/cheiselt">Linkedin</a>.</p>
+                </div>
+            </div>
+		</div>
+			
+		
+	</div>
+
+    <div class="section footer" id="accounts-header">
+      <div class="container">
+        <div class="row">
+          &copy; 2017 Conan Heiselt
+        </div>
+      </div>
+    </div>
+
+</body>
+</html>
